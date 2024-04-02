@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logoClaro-removebg-preview (5).png">
+
+    <title>Dolar Converter</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="href" src="img/logoEscuro-removebg-preview (1).png" alt="">
+            <h3>Dolar Converter</h3>
+        </div>
+        <div class="adaptaToggle">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label"></label>
+        </div>
+    </header>
+
+    <main id="main">
+        <h1>Converta seu dinheiro Já</h1>
+        <div class="card">
+            <div class="valores">
+                <label for="">Insira o Valor da Conversão em R$</label>
+                <input type="number" id="valorInserido">
+            </div>
+
+            <div class="valores">
+                <button id="conversor">Converta</button>
+            </div>
+            
+            <div class="valores">
+                <label for="">Valor Em Dolar</label>
+                <h3 id="valorConvertido"></h3>
+            </div>
+
+            <div class="valores">
+                <h2 class="aviso"></h2>
+            </div>
+        </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>
